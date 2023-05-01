@@ -1,0 +1,20 @@
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[0].title(), motorcycles[1].title(), motorcycles[2].title())
+print(motorcycles[0].title())
+message = f"I don't own a motorcycle but a {motorcycles[1].title()} won't be a bad start."
+print(message)
+motorcycles.append('ducati')
+print(motorcycles[3].upper())
+motorcycles.insert(0,'mazda')
+print(motorcycles[0], motorcycles[1], motorcycles[3])
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+never_owned = motorcycles.pop(0)
+print(f"I have never owned a {never_owned.title()} motorcycle.")
+motorcycles.remove('yamaha')
+print(motorcycles)
+expensive = 'honda'
+motorcycles.remove(expensive)
+print(motorcycles)
+print(f"A {expensive.title()} is too costly for me.")

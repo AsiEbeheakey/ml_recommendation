@@ -1,0 +1,13 @@
+seeing_the_world = ['america', 'canada', 'kenya', 'south africa', 'france']
+print(seeing_the_world)
+seeing_the_world.sort()
+print(seeing_the_world)
+seeing_the_world.sort(reverse=True)
+print(seeing_the_world)
+seeing_the_world.append('indonesia')
+print(seeing_the_world)
+seeing_the_world.insert(0,'austria')
+print(seeing_the_world)
+seeing_the_world.pop()
+print(seeing_the_world.pop(3).title())
+print(seeing_the_world[-1])
